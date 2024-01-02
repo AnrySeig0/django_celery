@@ -21,3 +21,9 @@ tzdata-2023.3
 vine-5.1.0
 wcwidth-0.2.12
 ```
+
+
+# Run Celery
+```shell
+sh ./run_celery.sh
+```
