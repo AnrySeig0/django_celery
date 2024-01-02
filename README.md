@@ -23,7 +23,17 @@ wcwidth-0.2.12
 ```
 
 
-# Run Celery
+# Start Celery Worker
 ```shell
 sh ./run_celery.sh
+```
+
+
+# Running a task
+```shell
+$ python ./manage.py shell
+>>> from demoapp.tasks import add, mul, xsum
+>>> res = add.delay(2,3)
+>>> res.get()
+5
 ```
