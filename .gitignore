@@ -1,1 +1,5 @@
 .idea
+.env
+run_local.sh
+db.sqlite3
+*.pyc
