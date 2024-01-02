@@ -1,0 +1,1 @@
+celery -A django_celery_1 worker -l INFO -c 1
